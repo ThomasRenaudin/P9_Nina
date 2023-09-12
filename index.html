@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<!-- Correction de la langue du site-->
+<html lang="fr">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
@@ -12,17 +13,22 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<!-- Amélioration du HEAD pour le SEO-->
+	<title>Nina Carducci - Photographe</title>
+    <meta name="description" content="Photographe professionelle concerts mariages entreprises portraits">
 </head>
 <body>
 <div class="top-header">
 	<h3 class="name">Nina Carducci</h3>
 	<div class="nav">   
 		<ul>
-			<li><a href="#about">À propos</a></li>
-			<li><a href="#gallery">Galerie</a></li>
-			<li><a href="#services">Service</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+			<!-- Correction des liens pour l'accessibilité-->
+			<li><a href="#about">À propos de moi</a></li>
+			<li><a href="#gallery">Galerie de photos</a></li>
+			<li><a href="#services">Mes services</a></li>
+			<li><a href="#contact">Me contacter</a></li>
+			<!-- COrrection du alt du social link-->
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Instagram nina carducci"></a></li>
 		</ul>
 	</div>
 </div>
@@ -135,24 +141,27 @@
 	</figure>
 </div>
 <div id="contact">
-	<div class="container">
-		<div class="form-container">
-			<h3>Une question ? Une demande de devis ?</h3>
-			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-			<form action="" method="post">
-				<label>Nom</label>
-				<input type="text" name="nom" id="nom">
-				<label>Email</label>
-				<input type="email" name="email" id="email">
-				<label>Message</label>
-				<textarea name="message" id="message" cols="30" rows="10"></textarea>
-				<input type="submit" value="Envoyer"/>
-			</form>
-		</div>
-		<div class="picture right">
-			<img src="./assets/images/camera-photographe.webp" alt="artist photographer contact">
-		</div>
-	</div>
+    <div class="container">
+        <div class="form-container">
+            <h3>Une question ? Une demande de devis ?</h3>
+            <p>N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+            <form action="" method="post">
+                <!-- Correction des labels pour l'accessibilité -->
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Envoyer"/>
+            </form>
+        </div>
+        <div class="picture right">
+            <img src="./assets/images/camera-photographe.webp" alt="artist photographer contact">
+        </div>
+    </div>
+</div>
+
 </div>
 </body>
 </html>
