@@ -21,20 +21,21 @@
     <meta name="description" content="Photographe professionelle concerts mariages entreprises portraits">
 	<!-- Intégration d'un Rich snippet pour décrire l'entreprise-->
 	<script type="application/ld+json">
-		{
-		  "@context": "http://schema.org",
-		  "@type": "Organization",
-		  "name": "Nina Carducci - Photographe",
-		  "url": "https://thomasrenaudin.github.io/P9_Nina/",
-		  "description": "Photographe professionnelle spécialisée dans les concerts, mariages, entreprises et portraits.",
-		  "address": {
-			"@type": "PostalAddress",
-			"streetAddress": "42 Avenue de la photographe",
-			"addressLocality": "Paris",
-			"postalCode": "75001",
-			"addressCountry": "France"
-		  }
-		}
+	{
+	"@context": "http://schema.org",
+	"@type": "Organization",
+	"name": "Nina Carducci - Photographe",
+	"url": "https://thomasrenaudin.github.io/P9_Nina/",
+	"description": "Photographe professionnelle spécialisée dans les concerts, mariages, entreprises et portraits.",
+	"image": "assets/images/nina-photographe.webp", 
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "42 Avenue de la photographe",
+		"addressLocality": "Paris",
+		"postalCode": "75001",
+		"addressCountry": "France"
+	}
+	}
 	</script>
 	<!-- Intégration des balises Open graph pour le partage sur les réseaux sociaux-->
 	<meta property="og:title" content="Nina Carducci - Photographe">
@@ -42,6 +43,7 @@
 	<meta property="og:url" content="https://thomasrenaudin.github.io/P9_Nina/">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="Nina Carducci - Photographe">
+	<meta property="og:image" content="assets/images/nina-photographe.webp">
 	<meta name="instagram" content="@Nina_photos">	
 </head>
 <body>
@@ -96,10 +98,10 @@
 	<div id="about-me">
 		<!-- Restructuration des titres hiérachie de la page + meilleur SEO-->
 		<h2 class="about-me__title">A propos de moi</h2>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+		<h3 class="about-me__introduction h6">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
-			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-	</div>
+			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique photographique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+	</div> <!-- Ajout de "photographique" pour le référencement-->
 </div>
 <div id="gallery">
 	<!-- Restructuration des titres hiérachie de la page + meilleur SEO-->
@@ -137,7 +139,7 @@
 			</div>
 			<div class="service__price">
 				<h4>350€/demi journée</h4>
-				<span>Matériel, déplacement inclus</span>
+				<span>Matériel, déplacement inclus en région Parisienne</span> <!-- Ajout de l'information région parisienne-->
 			</div>
 
 		</div>
@@ -193,6 +195,23 @@
         </div>
     </div>
 </div>
+
+<footer class="footer">
+			<div class="footer__informations">
+				<div class="footer__informations--photographe">
+					<p>Nina Carducci - Photographe professionnelle</p>
+				</div>
+				<div class="footer__informations--Paris">
+					<img src="assets/images/iconelocalisation.png" alt="Shooting photo Paris">
+					<p>42 avenue de la photographie, 75001 Paris</p>
+				</div>
+				<div class="footer__informations--mentions">
+					<img src="assets/images/iconecopyright.png" alt="Photographe Paris">
+					<p>Tous droits réservés</p>
+				</div>
+        </div>
+</footer>
+
 
 </div>
 </body>
